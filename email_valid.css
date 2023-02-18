@@ -1,0 +1,26 @@
+#name{
+    padding-left: 40px;
+}
+#mail{
+    padding-left:20px
+}
+#contact{
+    padding-left:20px;
+}
+#zip{
+    padding-left:20px;
+}
+#alertname,#alertcontact,#alertemail{
+    margin-top:-10px;
+}
+
+#alertzip{
+    margin-top: 10px;
+}
+
+#box{
+    padding:100px 100px 100px 100px;
+    border-style: double;
+    bor
+    
+}

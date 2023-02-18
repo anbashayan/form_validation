@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail Validation</title>
+</head>
+<body>
+    <div id="box">
+    <form onsubmit= "return validatemail()" >
+        <label>Enter Your Name</label><br><br>
+        <input type="text" id="sname" placeholder="Enter Your Name"><br><br>
+        <p id="alertname"></p>
+
+        <label>Enter a valid e-mail address</label> <br><br>
+        <input id="email" placeholder="Enter a valid e-mail address" type="text" width="200"><br><br>
+        <p id="alertemail"></p>
+
+        <label>Enter your contact number</label><br><br>
+        <input type="text" id="phonenumber" placeholder="Enter a valid contact number" width="200"><br><br>
+        <p id="alertcontact"></p>
+
+        <label>Enter Your Postal Zip Code</label><br><br>
+        <input type="text" id="postalcode" placeholder="Enter your postal code" size="15">
+        <p id="alertzip"></p>
+
+        <br>
+        <button id="button" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="email_valid.js"></script>
+    <link rel="stylesheet" href="email_valid.css">
+</body>
+</html>

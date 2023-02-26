@@ -20,7 +20,6 @@
 
 #box{
     padding:100px 100px 100px 100px;
-    border-style: double;
-    bor
+    border-style:dashed;
     
 }
